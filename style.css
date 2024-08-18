@@ -1,0 +1,228 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  font-family: Bruno Ace SC, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover; /* 填满容器 */
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: 1296px;
+  margin: 0 auto;
+}
+
+/* 對齊 */
+.d-f {
+  display: flex;
+}
+.fw-w {
+  flex-wrap: wrap;
+}
+.jc-sb {
+  justify-content: space-between;
+}
+.jc-c {
+  justify-content: center;
+}
+.jc-fe {
+  justify-content: flex-end;
+}
+.ai-c {
+  align-items: center;
+}
+.fd-c {
+  flex-direction: column;
+}
+.ml-a {
+  margin-left: auto;
+}
+.mb-36 {
+  margin-bottom: 36px;
+}
+.mb-32 {
+  margin-bottom: 32px;
+}
+.mb-28 {
+  margin-bottom: 28px;
+}
+.mb-24 {
+  margin-bottom: 24px;
+}
+.mb-16 {
+  margin-bottom: 16px;
+}
+.mr-24 {
+  margin-right: 24px;
+}
+.mr-16 {
+  margin-right: 16px;
+}
+.mr-20 {
+  margin-right: 20px;
+}
+
+/* 文字 */
+h1 {
+  font-size: 128px;
+}
+h2 {
+  font-size: 64px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 20px;
+}
+
+/* header */
+.header {
+  background-color: black;
+}
+.nav {
+  padding: 40px 0;
+}
+.nav a {
+  color: #d1d1d1;
+}
+.nav a:hover {
+  color: #00ffa3;
+}
+.kv-word {
+  margin-top: 232px;
+  margin-bottom: 192px;
+  width: 636px;
+}
+.kv-word h2 {
+  color: #ffffff;
+}
+.kv-word h1 {
+  color: #00ffa3;
+  text-align: right;
+}
+.kv-cta-button {
+  width: 185px;
+  background-color: #ffffff;
+  border-radius: 32px;
+  padding: 12px;
+  color: #000;
+}
+.kv-cta-button:hover {
+  background-color: #00ffa3;
+}
+/* .kv-cta-button p {
+  margin: 0;
+} */
+
+.kv-photo {
+  /* width: 636px; */
+  width: calc(50%);
+}
+.kv-word {
+  width: calc(50%);
+}
+
+/* info */
+.info {
+  padding-top: 160px;
+  padding-bottom: 160px;
+  background: url('https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true');
+}
+.info-word {
+  width: 526px;
+  color: #ffffff;
+}
+.info-img {
+  width: 746px;
+  height: auto;
+}
+
+/* about */
+.about {
+  background-color: #ffffff;
+}
+.skills-list {
+  width: 636px;
+  padding-top: 206px;
+  padding-bottom: 206px;
+  margin-right: 134px;
+}
+.list {
+  width: 306px;
+  border: 1px solid #e3e3e3;
+  padding: 16px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.08);
+}
+.about-word {
+  width: 526px;
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+
+/* contactme */
+.contactme {
+  padding-top: 96px;
+  padding-bottom: 96px;
+  background-color: #000;
+}
+.contactme-word {
+  color: #ffffff;
+  width: 657px;
+}
+.contactme-word img {
+  width: 100px;
+}
+.social-icon a img {
+  width: 162px;
+}
+.icon:hover {
+  border-radius: 40px;
+  box-shadow: 0px 0px 16px 3px #9094ffe5;
+}
+
+/* projects */
+.projects {
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+.projects h2 {
+  width: 742px;
+}
+.col-4 {
+  width: 426px;
+}
+.col-8 {
+  width: 856px;
+}
+.button {
+  width: 185px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #000;
+  border-radius: 32px;
+  color: #fff;
+  border: 0px;
+  margin-top: auto;
+}
+.button:hover {
+  background-color: #00ffa3;
+}
+
+/* footer */
+.footer {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
